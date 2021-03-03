@@ -14,4 +14,9 @@
     <Folder Include="Data\Migrations\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MesheshaBooks.Models\MesheshaBooks.Models.csproj" />
+    <ProjectReference Include="..\MesheshaBooks.Utility\MesheshaBooks.Utility.csproj" />
+  </ItemGroup>
+
 </Project>

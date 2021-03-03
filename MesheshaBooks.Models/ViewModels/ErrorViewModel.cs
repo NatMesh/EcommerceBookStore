@@ -1,6 +1,6 @@
 using System;
 
-namespace MesheshaBooks.Models
+namespace MesheshaBooks.Models.ViewModels
 {
     public class ErrorViewModel
     {

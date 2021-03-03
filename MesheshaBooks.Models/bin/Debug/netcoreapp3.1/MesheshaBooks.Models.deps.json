@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MesheshaBooks.Models/1.0.0": {
+        "runtime": {
+          "MesheshaBooks.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MesheshaBooks.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

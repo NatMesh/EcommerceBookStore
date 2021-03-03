@@ -1,0 +1,9 @@
+D:\#C Projects\Meshesha Books\EcommerceBookStore\MesheshaBooks.Models\bin\Debug\netcoreapp3.1\MesheshaBooks.Models.deps.json
+D:\#C Projects\Meshesha Books\EcommerceBookStore\MesheshaBooks.Models\bin\Debug\netcoreapp3.1\MesheshaBooks.Models.dll
+D:\#C Projects\Meshesha Books\EcommerceBookStore\MesheshaBooks.Models\bin\Debug\netcoreapp3.1\MesheshaBooks.Models.pdb
+D:\#C Projects\Meshesha Books\EcommerceBookStore\MesheshaBooks.Models\obj\Debug\netcoreapp3.1\MesheshaBooks.Models.csprojAssemblyReference.cache
+D:\#C Projects\Meshesha Books\EcommerceBookStore\MesheshaBooks.Models\obj\Debug\netcoreapp3.1\MesheshaBooks.Models.AssemblyInfoInputs.cache
+D:\#C Projects\Meshesha Books\EcommerceBookStore\MesheshaBooks.Models\obj\Debug\netcoreapp3.1\MesheshaBooks.Models.AssemblyInfo.cs
+D:\#C Projects\Meshesha Books\EcommerceBookStore\MesheshaBooks.Models\obj\Debug\netcoreapp3.1\MesheshaBooks.Models.csproj.CoreCompileInputs.cache
+D:\#C Projects\Meshesha Books\EcommerceBookStore\MesheshaBooks.Models\obj\Debug\netcoreapp3.1\MesheshaBooks.Models.dll
+D:\#C Projects\Meshesha Books\EcommerceBookStore\MesheshaBooks.Models\obj\Debug\netcoreapp3.1\MesheshaBooks.Models.pdb

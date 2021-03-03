@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace MesheshaBooks.Data
+namespace MesheshaBooks.DataAccess.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

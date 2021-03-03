@@ -442,3 +442,5 @@ D:\#C Projects\Meshesha Books\EcommerceBookStore\MesheshaBooks\bin\Debug\net5.0\
 D:\#C Projects\Meshesha Books\EcommerceBookStore\MesheshaBooks\bin\Debug\net5.0\MesheshaBooks.Utility.pdb
 D:\#C Projects\Meshesha Books\EcommerceBookStore\MesheshaBooks\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Index.cshtml.g.cs
 D:\#C Projects\Meshesha Books\EcommerceBookStore\MesheshaBooks\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Privacy.cshtml.g.cs
+D:\#C Projects\Meshesha Books\EcommerceBookStore\MesheshaBooks\obj\Debug\net5.0\Razor\Areas\Customer\Views\_ViewImports.cshtml.g.cs
+D:\#C Projects\Meshesha Books\EcommerceBookStore\MesheshaBooks\obj\Debug\net5.0\Razor\Areas\Customer\Views\_ViewStart.cshtml.g.cs

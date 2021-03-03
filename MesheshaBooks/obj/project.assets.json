@@ -6725,11 +6725,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\#C Projects\\Meshesha Books\\EcommerceBookStore\\MesheshaBooks\\MesheshaBooks\\MesheshaBooks.csproj",
+      "projectUniqueName": "D:\\#C Projects\\Meshesha Books\\EcommerceBookStore\\MesheshaBooks\\MesheshaBooks.csproj",
       "projectName": "MesheshaBooks",
-      "projectPath": "D:\\#C Projects\\Meshesha Books\\EcommerceBookStore\\MesheshaBooks\\MesheshaBooks\\MesheshaBooks.csproj",
+      "projectPath": "D:\\#C Projects\\Meshesha Books\\EcommerceBookStore\\MesheshaBooks\\MesheshaBooks.csproj",
       "packagesPath": "C:\\Users\\Nathanael Meshesha\\.nuget\\packages\\",
-      "outputPath": "D:\\#C Projects\\Meshesha Books\\EcommerceBookStore\\MesheshaBooks\\MesheshaBooks\\obj\\",
+      "outputPath": "D:\\#C Projects\\Meshesha Books\\EcommerceBookStore\\MesheshaBooks\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nathanael Meshesha\\AppData\\Roaming\\NuGet\\NuGet.Config",

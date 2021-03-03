@@ -32,7 +32,7 @@ namespace MesheshaBooks
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
 
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
         }
@@ -61,6 +61,7 @@ namespace MesheshaBooks
 
             app.UseEndpoints(endpoints =>
             {
+                //by using the name as default this is how we set the default page loaded on our web app
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");

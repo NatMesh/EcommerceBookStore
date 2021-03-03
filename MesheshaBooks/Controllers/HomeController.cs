@@ -18,6 +18,7 @@ namespace MesheshaBooks.Controllers
             _logger = logger;
         }
 
+        //This will return the Home index view when the index route is requested
         public IActionResult Index()
         {
             return View();

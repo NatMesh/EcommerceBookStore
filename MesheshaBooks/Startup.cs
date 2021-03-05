@@ -1,5 +1,7 @@
 
 using MesheshaBooks.DataAccess.Data;
+using MesheshaBooks.DataAccess.Repository;
+using MesheshaBooks.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,7 +34,7 @@ namespace MesheshaBooks
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
-
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();

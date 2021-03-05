@@ -1,12 +1,12 @@
-﻿using MesheshaBooks.Models;
+﻿using Dapper;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace MesheshaBooks.DataAccess.Repository.IRepository
 {
-    public interface ICategoryRepository : IRepository<Category>
+    public interface IStoredProcedure_Call : IDisposable
     {
-        void Update(Category category);
+        T Single<T>(string procedureName, DynamicParameters)
     }
 }

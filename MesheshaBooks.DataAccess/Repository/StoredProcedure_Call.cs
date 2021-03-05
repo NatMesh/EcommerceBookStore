@@ -26,6 +26,11 @@ namespace MesheshaBooks.DataAccess.Repository
             _db.Dispose();
         }
 
+        /// <summary>
+        /// This will be used for when we have a stored procedure that should update. 
+        /// </summary>
+        /// <param name="procedureName"></param>
+        /// <param name="param"></param>
         public void Execute(string procedureName, DynamicParameters param = null)
         {
             using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
@@ -35,6 +40,13 @@ namespace MesheshaBooks.DataAccess.Repository
             }
         }
 
+        /// <summary>
+        /// This will be used for fetch all stored procedure.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="procedureName"></param>
+        /// <param name="param"></param>
+        /// <returns></returns>
         public IEnumerable<T> List<T>(string procedureName, DynamicParameters param = null)
         {
             using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
@@ -44,6 +56,14 @@ namespace MesheshaBooks.DataAccess.Repository
             }
         }
 
+        /// <summary>
+        /// This will be used for a stored procedure that needs to retrieve data from 2 tables.
+        /// </summary>
+        /// <typeparam name="T1">Table 1</typeparam>
+        /// <typeparam name="T2">Table 2</typeparam>
+        /// <param name="procedureName"></param>
+        /// <param name="param"></param>
+        /// <returns></returns>
         public Tuple<IEnumerable<T1>, IEnumerable<T2>> List<T1, T2>(string procedureName, DynamicParameters param = null)
         {
             using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
@@ -62,6 +82,13 @@ namespace MesheshaBooks.DataAccess.Repository
             return new Tuple<IEnumerable<T1>, IEnumerable<T2>>(new List<T1>(), new List<T2>());
         }
 
+        /// <summary>
+        /// This will be used for a stored procedure that needs to only grab a single record
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="procedureName"></param>
+        /// <param name="param"></param>
+        /// <returns></returns>
         public T OneRecord<T>(string procedureName, DynamicParameters param = null)
         {
             using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
@@ -72,6 +99,13 @@ namespace MesheshaBooks.DataAccess.Repository
             }
         }
 
+        /// <summary>
+        /// This will be used for a stored procedure that needs to to retrieve on row
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="procedureName"></param>
+        /// <param name="param"></param>
+        /// <returns></returns>
         public T Single<T>(string procedureName, DynamicParameters param = null)
         {
             using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
